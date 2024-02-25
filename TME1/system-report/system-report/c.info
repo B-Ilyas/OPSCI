@@ -1,0 +1,1054 @@
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.1  0.3 2211980 28172 ?       S<sl 09:56   0:26 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:08 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863972 52912 ?        SNsl 09:56   0:27 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.4 11.5 6151840 935716 ?      Ssl  09:56  35:58 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319176 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:01 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9344 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.2  0.1 318308 12212 ?        Sl   09:56   0:38 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:04 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:11 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 14.0  7.6 12926336 621424 ?     Sl   09:56  30:44 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.9  1.0 223920 82840 ?        S    09:56   4:10 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504724 122428 ?      Sl   09:56   0:48 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.4  4.4 3186156 364880 ?      Sl   09:56   3:07 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2433036 109608 ?      Sl   09:57   0:13 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31804 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.3  0.7 562708 57824 ?        Ssl  09:58   0:51 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94788 ?       Sl   10:06   0:42 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997316 66712 ?       Sl   13:12   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.9  1.1 2419096 96744 ?       Sl   13:12   0:12 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24380  0.4  2.0 2512012 163680 ?      Sl   13:16   0:05 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 77 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {85c4d957-21f4-4c54-9e64-6fa4c611aa88} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24442  0.6  0.9 1008944 74776 ?       Sl   13:18   0:06 /usr/bin/nautilus --gapplication-service
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      24832  5.0  0.0  17776  7084 pts/0    S+   13:34   0:00 bash
+ilyas      24848  0.0  0.0  15896  3712 pts/0    R+   13:34   0:00 ps -aux
+ilyas      24849  0.0  0.0  12100  2560 pts/0    R+   13:34   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.1  0.3 2211952 28172 ?       S<sl 09:56   0:26 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:09 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863972 49604 ?        SNsl 09:56   0:27 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.5 11.5 6157584 939380 ?      Ssl  09:56  36:17 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319176 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:01 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.2  0.1 318308 12212 ?        Sl   09:56   0:38 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:04 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:11 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 14.0  7.6 12926336 621520 ?     Sl   09:56  30:45 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.9  1.0 223920 82840 ?        S    09:56   4:10 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504724 122428 ?      Sl   09:56   0:48 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.4  4.4 3186156 365008 ?      Sl   09:56   3:07 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2433036 109608 ?      Sl   09:57   0:13 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 562708 57824 ?        Ssl  09:58   0:51 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94788 ?       Sl   10:06   0:42 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997320 66712 ?       Sl   13:12   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.9  1.1 2419096 96516 ?       Sl   13:12   0:12 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24380  0.4  2.0 2512012 163680 ?      Sl   13:16   0:05 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 77 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {85c4d957-21f4-4c54-9e64-6fa4c611aa88} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24442  0.8  0.9 1009956 75672 ?       Sl   13:18   0:08 /usr/bin/nautilus --gapplication-service
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      24989  6.6  1.1 671260 91336 ?        Sl   13:34   0:01 /usr/bin/gedit --gapplication-service
+ilyas      24999  0.0  0.1  17440  8704 pts/1    Ss+  13:34   0:00 /bin/bash
+ilyas      25063  0.0  0.0  17776  6956 pts/0    S+   13:35   0:00 bash
+ilyas      25079  0.0  0.0  15896  3712 pts/0    R+   13:35   0:00 ps -aux
+ilyas      25080  0.0  0.0  12100  2560 pts/0    R+   13:35   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.1  0.3 2211952 28172 ?       S<sl 09:56   0:26 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:09 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863972 52208 ?        SNsl 09:56   0:27 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.7 11.5 6157608 939432 ?      Ssl  09:56  37:01 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319176 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:01 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.2  0.1 318308 12212 ?        Sl   09:56   0:38 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:04 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:11 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 14.0  7.7 12926368 628180 ?     Sl   09:56  31:05 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.9  1.0 223920 82700 ?        S    09:56   4:14 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504724 122044 ?      Sl   09:56   0:48 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.5  5.0 3188212 409912 ?      Sl   09:56   3:19 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2433036 109980 ?      Sl   09:57   0:14 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 562884 57952 ?        Ssl  09:58   0:52 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94816 ?       Sl   10:06   0:42 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997320 66968 ?       Sl   13:12   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.8  1.1 2419096 96320 ?       Sl   13:12   0:12 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24380  0.5  2.0 2512012 167608 ?      Sl   13:16   0:06 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 77 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {85c4d957-21f4-4c54-9e64-6fa4c611aa88} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24442  0.7  0.9 1002064 75800 ?       Sl   13:18   0:08 /usr/bin/nautilus --gapplication-service
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      25542  4.6  1.1 670988 91280 ?        Sl   13:37   0:00 /usr/bin/gedit --gapplication-service
+ilyas      25553  0.0  0.1  17444  8704 pts/1    Ss+  13:37   0:00 /bin/bash
+ilyas      25610  3.6  0.3 402300 31348 ?        SNsl 13:37   0:00 /usr/libexec/tracker-extract-3
+ilyas      25615  0.0  0.0  17776  7084 pts/0    S+   13:37   0:00 bash
+ilyas      25632  0.0  0.0  15896  3712 pts/0    R+   13:37   0:00 ps -aux
+ilyas      25633  0.0  0.0  12100  2560 pts/0    S+   13:37   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.1  0.3 2211952 28172 ?       S<sl 09:56   0:26 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:09 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863972 56000 ?        SNsl 09:56   0:28 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.7 11.5 6144952 937004 ?      Rsl  09:56  37:22 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319176 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:01 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.2  0.1 318308 12212 ?        Sl   09:56   0:39 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:05 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:11 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 14.0  7.7 12927720 630956 ?     Sl   09:56  31:11 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.9  1.0 223920 82896 ?        S    09:56   4:15 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504724 123972 ?      Sl   09:56   0:48 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.5  5.0 3178996 413396 ?      Sl   09:56   3:21 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2433036 110444 ?      Sl   09:57   0:14 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 562884 57952 ?        Rsl  09:58   0:53 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94776 ?       Sl   10:06   0:42 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997320 66840 ?       Sl   13:12   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.7  1.1 2419096 96496 ?       Sl   13:12   0:12 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      25542  2.9  1.2 682632 102756 ?       Sl   13:37   0:02 /usr/bin/gedit --gapplication-service
+ilyas      25553  0.0  0.1  17444  8704 pts/1    Ss+  13:37   0:00 /bin/bash
+ilyas      25669  1.8  0.3 402300 31492 ?        SNsl 13:38   0:00 /usr/libexec/tracker-extract-3
+ilyas      25674  0.0  0.0  17776  6956 pts/0    S+   13:38   0:00 bash
+ilyas      25690  0.0  0.0  15896  3712 pts/0    R+   13:38   0:00 ps -aux
+ilyas      25691  0.0  0.0  12100  2560 pts/0    R+   13:38   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.1  0.3 2211952 28172 ?       S<sl 09:56   0:26 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:09 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863972 51512 ?        RNsl 09:56   0:28 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.8 11.5 6156880 940892 ?      Ssl  09:56  37:36 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319176 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:01 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.2  0.1 318308 12212 ?        Sl   09:56   0:39 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:05 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:11 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 13.9  7.7 12927720 630412 ?     Sl   09:56  31:14 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.9  1.0 227700 86596 ?        S    09:56   4:15 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504724 123972 ?      Sl   09:56   0:48 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.5  5.0 3178996 413524 ?      Sl   09:56   3:22 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2433036 110700 ?      Sl   09:57   0:14 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 562884 57952 ?        Ssl  09:58   0:53 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94776 ?       Sl   10:06   0:42 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997320 66840 ?       Sl   13:12   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.7  1.1 2419096 96496 ?       Sl   13:12   0:12 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      25542  2.4  1.2 682764 102884 ?       Sl   13:37   0:03 /usr/bin/gedit --gapplication-service
+ilyas      25553  0.0  0.1  17444  8704 pts/1    Ss+  13:37   0:00 /bin/bash
+ilyas      25710  3.6  0.3 402292 31384 ?        SNsl 13:39   0:00 /usr/libexec/tracker-extract-3
+ilyas      25715  0.0  0.0  17776  7084 pts/0    S+   13:39   0:00 bash
+ilyas      25732  0.0  0.0  15896  3712 pts/0    R+   13:39   0:00 ps -aux
+ilyas      25733  0.0  0.0  12100  2560 pts/0    R+   13:39   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.1  0.3 2211952 28172 ?       S<sl 09:56   0:26 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:09 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863976 50392 ?        RNsl 09:56   0:28 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.8 11.5 6144944 937196 ?      Rsl  09:56  37:46 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319176 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:01 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.2  0.1 318308 12212 ?        Sl   09:56   0:39 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:05 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:11 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 13.9  7.7 12927716 631804 ?     Sl   09:56  31:17 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.9  1.0 223920 82824 ?        S    09:56   4:16 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504724 123972 ?      Sl   09:56   0:48 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.5  5.1 3183092 417948 ?      Sl   09:56   3:24 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2433036 110700 ?      Sl   09:57   0:15 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 562884 57952 ?        Ssl  09:58   0:53 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94776 ?       Sl   10:06   0:42 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997324 66840 ?       Sl   13:12   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.7  1.1 2419096 96496 ?       Sl   13:12   0:12 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      25542  2.2  1.2 682764 102884 ?       Sl   13:37   0:03 /usr/bin/gedit --gapplication-service
+ilyas      25553  0.0  0.1  17444  8704 pts/1    Ss+  13:37   0:00 /bin/bash
+ilyas      25748  2.1  0.3 402300 31800 ?        SNsl 13:40   0:00 /usr/libexec/tracker-extract-3
+ilyas      25753  3.0  0.0  17776  6956 pts/0    S+   13:40   0:00 bash
+ilyas      25769  0.0  0.0  15896  3712 pts/0    R+   13:40   0:00 ps -aux
+ilyas      25770  0.0  0.0  12100  2560 pts/0    S+   13:40   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.2  0.3 2211952 27936 ?       S<sl 09:56   0:28 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:09 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863972 54896 ?        RNsl 09:56   0:29 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.6 11.5 6153176 937152 ?      Ssl  09:56  38:18 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319176 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:01 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.3  0.1 318308 12212 ?        Sl   09:56   0:42 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:05 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:12 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 13.6  7.8 12927396 637088 ?     Sl   09:56  31:20 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.8  1.0 223920 82884 ?        S    09:56   4:16 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504324 127888 ?      Sl   09:56   0:49 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.5  5.0 3183092 414228 ?      Sl   09:56   3:27 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2433036 111252 ?      Sl   09:57   0:16 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 563180 58336 ?        Ssl  09:58   0:55 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94500 ?       Sl   10:06   0:42 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997324 66968 ?       Sl   13:12   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.6  1.1 2419096 96480 ?       Sl   13:12   0:12 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      25542  1.2  1.2 682948 103220 ?       Sl   13:37   0:06 /usr/bin/gedit --gapplication-service
+ilyas      25553  0.0  0.1  17444  8704 pts/1    Ss+  13:37   0:00 /bin/bash
+ilyas      25796  0.0  0.0  16260  4352 pts/0    T    13:41   0:00 top -u ilyas
+ilyas      25819  1.4  0.3 549904 32160 ?        SNsl 13:45   0:00 /usr/libexec/tracker-extract-3
+ilyas      25824  0.3  0.0  17776  6956 pts/0    S+   13:45   0:00 bash
+ilyas      25844  0.0  0.0  15896  3712 pts/0    R+   13:45   0:00 ps -aux
+ilyas      25845  0.0  0.0  12100  2560 pts/0    S+   13:45   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.2  0.3 2211952 27936 ?       S<sl 09:56   0:28 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:09 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 872168 54108 ?        DNsl 09:56   0:29 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.7 11.5 6153164 937108 ?      Ssl  09:56  38:37 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319176 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:01 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.3  0.1 318308 12212 ?        Sl   09:56   0:42 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:05 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:12 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 13.6  7.2 12923268 588548 ?     Sl   09:56  31:31 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.8  1.0 223920 82784 ?        S    09:56   4:18 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504324 127516 ?      Sl   09:56   0:49 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.5  6.1 3191300 497996 ?      Sl   09:56   3:40 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2433036 111536 ?      Sl   09:57   0:16 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 563180 58336 ?        Ssl  09:58   0:56 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 95240 ?       Sl   10:06   0:43 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997324 66968 ?       Sl   13:12   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.5  1.1 2419096 96496 ?       Sl   13:12   0:12 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      25542  1.1  1.2 682948 103220 ?       Sl   13:37   0:06 /usr/bin/gedit --gapplication-service
+ilyas      25553  0.0  0.1  17444  8704 pts/1    Ss+  13:37   0:00 /bin/bash
+ilyas      25796  0.0  0.0  16260  4352 pts/0    T    13:41   0:00 top -u ilyas
+ilyas      25866  7.6  0.3 549908 31952 ?        SNsl 13:47   0:00 /usr/libexec/tracker-extract-3
+ilyas      25871  1.0  0.0  17776  7084 pts/0    S+   13:47   0:00 bash
+ilyas      25892  0.0  0.0  15896  3712 pts/0    R+   13:47   0:00 ps -aux
+ilyas      25893  0.0  0.0  12100  2560 pts/0    R+   13:47   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.2  0.3 2211952 27936 ?       S<sl 09:56   0:28 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:10 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863972 53700 ?        DNsl 09:56   0:30 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.7 11.5 6153196 937140 ?      Ssl  09:56  39:19 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319300 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:01 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.3  0.1 318308 12212 ?        Sl   09:56   0:43 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:05 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:13 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 13.5  7.2 12923220 590160 ?     Sl   09:56  31:41 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.8  1.0 223920 82824 ?        S    09:56   4:21 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504324 129688 ?      Sl   09:56   0:49 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.5  4.9 3175916 399752 ?      Sl   09:56   3:41 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2433036 112024 ?      Sl   09:57   0:17 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 563180 58336 ?        Ssl  09:58   0:57 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94948 ?       Sl   10:06   0:43 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997324 66968 ?       Sl   13:12   0:02 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.6  1.1 2419096 96692 ?       Sl   13:12   0:13 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      25796  0.0  0.0  16260  4352 pts/0    T    13:41   0:00 top -u ilyas
+ilyas      26121  3.2  1.1 737372 92600 ?        Sl   13:48   0:03 /usr/bin/gedit --gapplication-service
+ilyas      26131  0.0  0.1  17444  8828 pts/1    Ss+  13:48   0:00 /bin/bash
+ilyas      26208  5.2  0.3 549912 32032 ?        SNsl 13:50   0:00 /usr/libexec/tracker-extract-3
+ilyas      26216  0.0  0.0  17776  7084 pts/0    S+   13:50   0:00 bash
+ilyas      26236  0.0  0.0  15896  3712 pts/0    R+   13:50   0:00 ps -aux
+ilyas      26237  0.0  0.0  12100  2560 pts/0    S+   13:50   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.2  0.3 2211952 27936 ?       S<sl 09:56   0:28 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:10 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863972 54676 ?        SNsl 09:56   0:30 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.8 11.5 6157744 939780 ?      Ssl  09:56  39:44 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319300 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:02 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.3  0.1 318308 12212 ?        Sl   09:56   0:44 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:05 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:13 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 13.4  7.2 12923220 586124 ?     Sl   09:56  31:44 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.8  1.0 223920 82924 ?        S    09:56   4:21 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504324 129688 ?      Sl   09:56   0:49 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.5  4.9 3175916 399720 ?      Sl   09:56   3:41 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2434060 112244 ?      Sl   09:57   0:17 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 563180 58336 ?        Ssl  09:58   0:57 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94948 ?       Sl   10:06   0:43 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997328 67096 ?       Sl   13:12   0:02 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.6  1.1 2419096 96692 ?       Sl   13:12   0:14 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      25796  0.0  0.0  16260  4352 pts/0    T    13:41   0:00 top -u ilyas
+ilyas      26121  2.8  1.2 748060 103480 ?       Sl   13:48   0:06 /usr/bin/gedit --gapplication-service
+ilyas      26131  0.0  0.1  17444  8828 pts/1    Ss+  13:48   0:00 /bin/bash
+ilyas      26274  2.4  0.9 804344 74920 ?        Sl   13:50   0:02 /usr/bin/nautilus --gapplication-service
+ilyas      26312  2.7  0.3 549912 32172 ?        SNsl 13:51   0:00 /usr/libexec/tracker-extract-3
+ilyas      26317  0.0  0.0  17776  7084 pts/0    S+   13:52   0:00 bash
+ilyas      26339  0.0  0.0  15896  3712 pts/0    R+   13:52   0:00 ps -aux
+ilyas      26340  0.0  0.0  12100  2560 pts/0    S+   13:52   0:00 grep ^ilyas
+ilyas       1355  0.0  0.1  19680 12080 ?        Ss   09:56   0:02 /lib/systemd/systemd --user
+ilyas       1356  0.0  0.0 104496  5904 ?        S    09:56   0:00 (sd-pam)
+ilyas       1362  0.0  0.0  42412  6528 ?        S<sl 09:56   0:00 /usr/bin/pipewire
+ilyas       1363  0.0  0.0  26300  6528 ?        Ssl  09:56   0:00 /usr/bin/pipewire-media-session
+ilyas       1364  0.2  0.3 2211952 27936 ?       S<sl 09:56   0:28 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ilyas       1365  0.0  0.1  76256 13568 ?        Ss   09:56   0:01 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1387  0.0  0.1  16652 12416 ?        Ss   09:56   0:10 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ilyas       1389  0.0  0.0 317740  8088 ?        Sl   09:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ilyas       1392  0.0  0.0 243512  8064 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd
+ilyas       1399  0.0  0.0 380892  6528 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ilyas       1408  0.0  0.0 539824  7552 ?        Ssl  09:56   0:00 /usr/libexec/xdg-document-portal
+ilyas       1412  0.0  0.0 239068  6272 ?        Ssl  09:56   0:00 /usr/libexec/xdg-permission-store
+ilyas       1420  0.0  0.0 165456  6016 tty2     Ssl+ 09:56   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ilyas       1434  0.0  0.1 226108 16000 tty2     Sl+  09:56   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ilyas       1435  0.2  0.6 863972 54964 ?        DNsl 09:56   0:30 /usr/libexec/tracker-miner-fs-3
+ilyas       1483  0.0  0.0  94776  5760 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-ctl --monitor
+ilyas       1495  0.0  0.2 596888 18176 ?        Ssl  09:56   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ilyas       1521  0.0  0.0 309624  7680 ?        Sl   09:56   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ilyas       1524 16.8 11.5 6157808 940548 ?      Ssl  09:56  39:51 /usr/bin/gnome-shell
+ilyas       1532  0.0  0.0   8564  4352 ?        S    09:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ilyas       1591  0.0  0.1 319300 10752 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ilyas       1596  0.0  0.0 239524  6784 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ilyas       1600  0.0  0.0 239728  6912 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ilyas       1604  0.0  0.5 581596 40960 ?        Sl   09:56   0:00 /usr/libexec/goa-daemon
+ilyas       1606  0.0  0.2 583068 21120 ?        Sl   09:56   0:00 /usr/libexec/gnome-shell-calendar-server
+ilyas       1613  0.0  0.1 415352 15616 ?        Sl   09:56   0:00 /usr/libexec/goa-identity-service
+ilyas       1615  0.0  0.0 240608  7040 ?        Ssl  09:56   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ilyas       1627  0.0  0.1 318304  8320 ?        Ssl  09:56   0:02 /usr/libexec/gvfs-afc-volume-monitor
+ilyas       1630  0.0  0.3 1075536 26496 ?       Ssl  09:56   0:00 /usr/libexec/evolution-source-registry
+ilyas       1642  0.0  0.3 843804 31744 ?        Ssl  09:56   0:00 /usr/libexec/evolution-calendar-factory
+ilyas       1645  0.0  0.2 306100 21708 ?        Sl   09:56   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+ilyas       1648  0.0  0.1 317736  9472 ?        Sl   09:56   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ilyas       1654  0.0  0.1 627008 14336 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal
+ilyas       1665  0.0  0.3 666792 30404 ?        Ssl  09:56   0:01 /usr/libexec/xdg-desktop-portal-gnome
+ilyas       1668  0.0  0.0 157072  6016 ?        Ssl  09:56   0:00 /usr/libexec/dconf-service
+ilyas       1673  0.0  0.3 749328 29440 ?        Ssl  09:56   0:00 /usr/libexec/evolution-addressbook-factory
+ilyas       1680  0.0  0.3 2666192 27784 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ilyas       1685  0.0  0.0 162684  7808 ?        Sl   09:56   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ilyas       1704  0.0  0.0   2892  1664 ?        Ss   09:56   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ilyas       1705  0.0  0.0 313704  7296 ?        Ssl  09:56   0:00 /usr/libexec/gsd-a11y-settings
+ilyas       1708  0.0  0.3 528572 26732 ?        Ssl  09:56   0:00 /usr/libexec/gsd-color
+ilyas       1709  0.3  0.1 318308 12212 ?        Sl   09:56   0:45 /usr/bin/ibus-daemon --panel disable
+ilyas       1710  0.0  0.2 378744 16640 ?        Ssl  09:56   0:00 /usr/libexec/gsd-datetime
+ilyas       1713  0.0  0.1 315352  8320 ?        Ssl  09:56   0:00 /usr/libexec/gsd-housekeeping
+ilyas       1714  0.0  0.2 344276 22752 ?        Ssl  09:56   0:00 /usr/libexec/gsd-keyboard
+ilyas       1719  0.0  0.3 646780 27904 ?        Ssl  09:56   0:00 /usr/libexec/gsd-media-keys
+ilyas       1727  0.0  0.3 527964 26496 ?        Ssl  09:56   0:00 /usr/libexec/gsd-power
+ilyas       1729  0.0  0.1 252976 11648 ?        Ssl  09:56   0:00 /usr/libexec/gsd-print-notifications
+ilyas       1730  0.0  0.0 460980  7040 ?        Ssl  09:56   0:00 /usr/libexec/gsd-rfkill
+ilyas       1737  0.0  0.0 239412  6656 ?        Ssl  09:56   0:00 /usr/libexec/gsd-screensaver-proxy
+ilyas       1747  0.0  0.1 469216 11008 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sharing
+ilyas       1749  0.0  0.1 315584  8704 ?        Ssl  09:56   0:00 /usr/libexec/gsd-smartcard
+ilyas       1754  0.0  0.1 322620  9984 ?        Ssl  09:56   0:00 /usr/libexec/gsd-sound
+ilyas       1757  0.0  0.8 823288 67716 ?        Sl   09:56   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ilyas       1773  0.0  0.2 418624 23168 ?        Ssl  09:56   0:00 /usr/libexec/gsd-wacom
+ilyas       1775  0.0  0.0 232268  7808 ?        Sl   09:56   0:00 /usr/libexec/gsd-disk-utility-notify
+ilyas       1789  0.0  0.0 240516  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-dconf
+ilyas       1807  0.0  0.3 351516 29824 ?        Sl   09:56   0:05 /usr/libexec/ibus-extension-gtk3
+ilyas       1812  0.0  0.0 240436  7808 ?        Sl   09:56   0:00 /usr/libexec/ibus-portal
+ilyas       1841  0.0  0.1 345480 14976 ?        Sl   09:56   0:00 /usr/libexec/gsd-printer
+ilyas       1876  0.0  0.0 166812  7808 ?        Sl   09:56   0:13 /usr/libexec/ibus-engine-simple
+ilyas       1905  0.0  0.3 2674400 28316 ?       Sl   09:56   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ilyas       1927  0.0  0.3 348152 26372 ?        Ssl  09:56   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ilyas       1997  0.0  0.0 166200  6528 ?        Ssl  09:56   0:00 /usr/libexec/gvfsd-metadata
+ilyas       2009 13.4  7.2 12923220 586636 ?     Sl   09:56  31:44 /snap/firefox/2987/usr/lib/firefox/firefox
+ilyas       2106  1.8  1.0 223920 82924 ?        S    09:56   4:21 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FFNDJ2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ilyas       2112  0.0  1.0 532544 81968 ?        Ssl  09:56   0:01 /usr/libexec/gsd-xsettings
+ilyas       2138  0.0  0.3 197844 25656 ?        Sl   09:56   0:00 /usr/libexec/ibus-x11
+ilyas       2236  0.0  0.4 210612 34176 ?        Sl   09:56   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 32153 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ed993862-a3f5-43e6-abd7-b4901fe91337} 2009 true socket
+ilyas       2261  0.3  1.5 2504324 129688 ?      Sl   09:56   0:49 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32294 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c5fb33-1f72-4523-830a-f160553c4a3f} 2009 true tab
+ilyas       2302  0.0  0.2 1459756 19804 ?       Sl   09:56   0:00 /usr/bin/snap userd
+ilyas       2379  0.0  1.0 2434528 84988 ?       Sl   09:56   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 37698 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f039f39a-44a4-41cb-8ba8-e6a1311b1236} 2009 true tab
+ilyas       2598  1.5  4.9 3175916 399744 ?      Sl   09:56   3:41 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29850 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e1618fd1-f46b-406f-8ac1-73b078d1b590} 2009 true tab
+ilyas       2741  0.1  1.3 2434060 112244 ?      Sl   09:57   0:17 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 30035 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f39b156f-fdb1-42ac-ac66-f67cb78b440d} 2009 true tab
+ilyas       2857  0.0  0.3 497936 31932 ?        Sl   09:57   0:00 update-notifier
+ilyas       3101  0.0  0.5 361600 47412 ?        Sl   09:57   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {daaec11a-caff-49d0-a8db-b1764f9110d7} 2009 true rdd
+ilyas       3104  0.0  0.5 330860 44928 ?        Sl   09:57   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 36534 -prefMapSize 233392 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a623793f-34f0-4807-9df8-613c0638ae9f} 2009 true utility
+ilyas       3191  0.4  0.7 563180 58336 ?        Ssl  09:58   0:57 /usr/libexec/gnome-terminal-server
+ilyas       3209  0.0  0.1  18144  9216 pts/0    Ss   09:58   0:00 bash
+ilyas       4463  0.0  0.1 391652  9344 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ilyas       4487  0.0  0.1 319692  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+ilyas       4926  0.3  1.1 2415352 94948 ?       Sl   10:06   0:43 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 24 -isForBrowser -prefsLen 30144 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {707f9341-75bd-4c82-9c4f-7c2daaf7e6ca} 2009 true tab
+ilyas       9611  0.0  0.1  18292  9728 pts/0    S    10:47   0:00 bash
+ilyas      17165  0.0  0.0   7976  5760 ?        S    12:38   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+ilyas      24212  0.0  0.8 2997328 67096 ?       Sl   13:12   0:02 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:0:0:0:0
+ilyas      24268  0.5  1.1 2419096 96692 ?       Sl   13:12   0:14 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 75 -isForBrowser -prefsLen 30378 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {0d72c8b8-5902-416b-a8ab-6a673e69d140} 2009 true tab
+ilyas      24402  0.0  0.7 2402028 58880 ?       Sl   13:16   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {fd8338bf-fc38-4395-85f8-41b6517666c5} 2009 true tab
+ilyas      24513  0.0  0.7 2402032 59392 ?       Sl   13:22   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 79 -isForBrowser -prefsLen 30579 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {f4d131e9-7bef-41cd-8ad0-d88fefa58c7b} 2009 true tab
+ilyas      24590  0.0  0.7 2402032 59904 ?       Sl   13:28   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 80 -isForBrowser -prefsLen 30578 -prefMapSize 233392 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ecf48d25-fad3-4f3d-a808-c51d2700747b} 2009 true tab
+ilyas      25796  0.0  0.0  16260  4352 pts/0    T    13:41   0:00 top -u ilyas
+ilyas      26121  2.8  1.2 748060 103480 ?       Sl   13:48   0:06 /usr/bin/gedit --gapplication-service
+ilyas      26131  0.0  0.1  17444  8828 pts/1    Ss+  13:48   0:00 /bin/bash
+ilyas      26274  1.9  0.9 804344 74920 ?        Sl   13:50   0:02 /usr/bin/nautilus --gapplication-service
+ilyas      26382  5.0  0.3 549904 32052 ?        SNsl 13:52   0:00 /usr/libexec/tracker-extract-3
+ilyas      26387  0.0  0.0  17776  6956 pts/0    S+   13:52   0:00 bash
+ilyas      26408  0.0  0.0  15896  3712 pts/0    R+   13:52   0:00 ps -aux
+ilyas      26409  0.0  0.0  12100  2560 pts/0    S+   13:52   0:00 grep ^ilyas
